@@ -10,7 +10,7 @@ Algoritma:
 6. Output total bunga dan tabungan akhir
 
 Variabel dan tipe data:
-- tabunganAwal: double
+- tabunganAwal: int
 - lamaMenabung: int
 - persentaseBunga: double
 - tabunganAkhir: double
@@ -22,7 +22,7 @@ public class Kasus2_11 {
 
         // Input tabungan awal, lama menabung, dan persentase bunga
         System.out.print("Masukkan jumlah tabungan awal: ");
-        double tabunganAwal = input.nextDouble();
+        int tabunganAwal = input.nextInt();
 
         System.out.print("Masukkan lama menabung (tahun): ");
         int lamaMenabung = input.nextInt();
