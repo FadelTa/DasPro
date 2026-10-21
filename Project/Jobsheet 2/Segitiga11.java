@@ -12,5 +12,7 @@ public class Segitiga11 {
 
         double luasSegitiga = 0.5 * alas * tinggi;
         System.out.println("Luas Segitiga: " + luasSegitiga);
+
+        scanner.close();
     }
 }
