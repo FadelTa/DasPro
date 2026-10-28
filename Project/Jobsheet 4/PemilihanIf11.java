@@ -9,7 +9,7 @@ public class PemilihanIf11 {
         boolean uktLunas = sc.nextBoolean();
 
         System.out.println(uktLunas ? "Pembayaran UKT terverifikasi" : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
-
+        sc.close();
         // if (uktLunas) {
         //     System.out.println("Pembayaran UKT terverifikasi");
         //     System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");

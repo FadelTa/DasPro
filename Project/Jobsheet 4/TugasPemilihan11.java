@@ -11,5 +11,6 @@ public class TugasPemilihan11 {
         } else {
             System.out.println("KRS Valid");
         }
+        sc.close();
     }
 }

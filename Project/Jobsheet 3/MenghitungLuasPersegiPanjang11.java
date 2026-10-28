@@ -13,5 +13,7 @@ public class MenghitungLuasPersegiPanjang11 {
         lebar = sc.nextInt();
         luas = panjang * lebar;
         System.out.println("Luas persegi panjang adalah: " + luas);
+
+        sc.close();
     }
 }

@@ -36,5 +36,7 @@ public class PemilihanSwitch11 {
             default:
                 System.out.println("Semester tidak valid");
         }
+
+        sc.close();
     }
 }
